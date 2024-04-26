@@ -7,7 +7,6 @@ import ShoppingList from "./Pages/ShoppingList/ShoppingList";
 import Header from "./CustomCoponents/Header";
 import './App.css'
 
-
 function App() {
   return (
     <div className="mainWrapper">
