@@ -18,6 +18,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
+import { Minus, MoveRight, Plus } from "lucide-react";
 
 export default function Home() {
   const [temperature, setTemperature] = useState(0);
@@ -84,7 +85,7 @@ export default function Home() {
               if (temperature < 12) setTemperature(temperature + 1);
             }}
           >
-            <img src="./assets/plus.svg" alt="plus icon" />
+            <Plus />
           </Badge>
 
           <span className="text-5xl">{temperature}°C</span>
@@ -95,7 +96,7 @@ export default function Home() {
               if (temperature !== 0) setTemperature(temperature - 1);
             }}
           >
-            <img src="./assets/minus.svg" alt="plus icon" />
+            <Minus />
           </Badge>
         </CardContent>
         <CardFooter className="flex items-center justify-center gap-2">
@@ -107,22 +108,14 @@ export default function Home() {
       <a href="/shopping">
         <Button variant="default" className="gap-4 w-full">
           Items & Shopping
-          <img
-            alt="arrow iocn"
-            src="./assets/arrow-right.svg"
-            className="arrow-right-svg"
-          />
+          <MoveRight />
         </Button>
       </a>
 
       <a href="/recipes">
         <Button variant="default" className="gap-4 w-full">
           Recipes
-          <img
-            alt="arrow iocn"
-            src="./assets/arrow-right.svg"
-            className="arrow-right-svg"
-          />
+          <MoveRight />
         </Button>
       </a>
     </div>

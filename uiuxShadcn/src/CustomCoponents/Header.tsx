@@ -8,6 +8,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Badge, MoveLeft, Settings } from "lucide-react";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -21,23 +22,14 @@ export default function Header() {
     <div className="p-4 flex flex-row justify-between items-center	bg-slate-300">
       <div className="left-side Center">
         {notRoot && (
-          <img
-            onClick={() => back()}
-            alt="settings icon"
-            src="./src/assets/arrow-left.svg"
-            className="h-6 cursor-pointer"
-          />
+          <MoveLeft onClick={() => back()} className="h-6 cursor-pointer" />
         )}
       </div>
       <div className="middle Center"></div>
       <div className="right-side Center cursor-pointer">
         <DropdownMenu>
           <DropdownMenuTrigger>
-            <img
-              alt="settings icon"
-              src="./src/assets/settings.svg"
-              className="h-6 transition duration-200 hover:rotate-90 cursor-pointer"
-            />
+          <Settings className="h-6 transition duration-200 hover:rotate-90 cursor-pointer" />
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuLabel>Settings</DropdownMenuLabel>
