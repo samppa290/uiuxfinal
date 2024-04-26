@@ -15,11 +15,11 @@ function App() {
         <Header />
         <Routes>
         
-          <Route path="https://uiuxfinal-b2mwsticn-miro-kymalainens-projects.vercel.app/" element={<Home />} />
-          <Route path="https://uiuxfinal-b2mwsticn-miro-kymalainens-projects.vercel.app/shopping" element={<Shopping />} />
-          <Route path="https://uiuxfinal-b2mwsticn-miro-kymalainens-projects.vercel.app/recipes" element={<Recipes />} />
-          <Route path="https://uiuxfinal-b2mwsticn-miro-kymalainens-projects.vercel.app/recipe" element={<Recipe />} />
-          <Route path="https://uiuxfinal-b2mwsticn-miro-kymalainens-projects.vercel.app/shopping-list" element={<ShoppingList />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/shopping" element={<Shopping />} />
+          <Route path="/recipes" element={<Recipes />} />
+          <Route path="/recipe" element={<Recipe />} />
+          <Route path="/shopping-list" element={<ShoppingList />} />
         </Routes>
       </div>
     </div>
