@@ -8,7 +8,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Badge, MoveLeft, Settings } from "lucide-react";
+import {MoveLeft, Settings } from "lucide-react";
 
 export default function Header() {
   const navigate = useNavigate();
