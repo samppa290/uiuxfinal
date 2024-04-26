@@ -14,7 +14,6 @@ function App() {
       <div className="innerWrapper">
         <Header />
         <Routes>
-        
           <Route path="/" element={<Home />} />
           <Route path="/shopping" element={<Shopping />} />
           <Route path="/recipes" element={<Recipes />} />

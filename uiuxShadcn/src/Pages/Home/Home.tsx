@@ -84,7 +84,7 @@ export default function Home() {
               if (temperature < 12) setTemperature(temperature + 1);
             }}
           >
-            <img src=".assets/plus.svg" alt="plus icon" />
+            <img src="./assets/plus.svg" alt="plus icon" />
           </Badge>
 
           <span className="text-5xl">{temperature}°C</span>
@@ -95,7 +95,7 @@ export default function Home() {
               if (temperature !== 0) setTemperature(temperature - 1);
             }}
           >
-            <img src=".assets/minus.svg" alt="plus icon" />
+            <img src="./assets/minus.svg" alt="plus icon" />
           </Badge>
         </CardContent>
         <CardFooter className="flex items-center justify-center gap-2">
@@ -109,7 +109,7 @@ export default function Home() {
           Items & Shopping
           <img
             alt="arrow iocn"
-            src=".assets/arrow-right.svg"
+            src="./assets/arrow-right.svg"
             className="arrow-right-svg"
           />
         </Button>
@@ -120,7 +120,7 @@ export default function Home() {
           Recipes
           <img
             alt="arrow iocn"
-            src=".assets/arrow-right.svg"
+            src="./assets/arrow-right.svg"
             className="arrow-right-svg"
           />
         </Button>
