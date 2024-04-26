@@ -24,7 +24,7 @@ export default function Header() {
           <img
             onClick={() => back()}
             alt="settings icon"
-            src="src/assets/arrow-left.svg"
+            src=".assets/arrow-left.svg"
             className="h-6 cursor-pointer"
           />
         )}
@@ -35,7 +35,7 @@ export default function Header() {
           <DropdownMenuTrigger>
             <img
               alt="settings icon"
-              src="src/assets/settings.svg"
+              src=".assets/settings.svg"
               className="h-6 transition duration-200 hover:rotate-90 cursor-pointer"
             />
           </DropdownMenuTrigger>

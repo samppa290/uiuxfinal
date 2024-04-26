@@ -76,7 +76,7 @@ function Shopping() {
       <Button className="flex gap-4 w-fit">
         <img
           alt="settings icon"
-          src="src/assets/plus.svg"
+          src=".assets/plus.svg"
           className="h-6 cursor-pointer"
         />
         <span>New shopping list</span>
