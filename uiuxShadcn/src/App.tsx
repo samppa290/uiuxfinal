@@ -4,7 +4,7 @@ import Shopping from "./Pages/Shopping/Shopping";
 import Recipes from "./Pages/Recipes/Recipes";
 import Recipe from "./Pages/Recipe/Recipe";
 import ShoppingList from "./Pages/ShoppingList/ShoppingList";
-import Header from "/src/CustomCoponents/Header.tsx";
+import Header from "./CustomCoponents/Header";
 import './App.css'
 
 
