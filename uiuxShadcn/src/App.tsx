@@ -14,11 +14,11 @@ function App() {
       <div className="innerWrapper">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shopping" element={<Shopping />} />
-          <Route path="/recipes" element={<Recipes />} />
-          <Route path="/recipe" element={<Recipe />} />
-          <Route path="/shopping-list" element={<ShoppingList />} />
+          <Route path="https://uiuxfinal.vercel.app/" element={<Home />} />
+          <Route path="https://uiuxfinal.vercel.app/shopping" element={<Shopping />} />
+          <Route path="https://uiuxfinal.vercel.app/recipes" element={<Recipes />} />
+          <Route path="https://uiuxfinal.vercel.app/recipe" element={<Recipe />} />
+          <Route path="https://uiuxfinal.vercel.app/shopping-list" element={<ShoppingList />} />
         </Routes>
       </div>
     </div>
